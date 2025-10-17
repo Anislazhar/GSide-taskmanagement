@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { RootState, AppDispatch } from "../../app/store";
 import {
   setTasks,
@@ -14,6 +15,7 @@ import TaskGrid from "./TaskGrid";
 
 const TaskList: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
+  const navigate = useNavigate();
   const { tasks, index } = useSelector((s: RootState) => s.tasks);
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState<"All" | "New" | "Done" | "Escalated">(
@@ -42,6 +44,11 @@ const TaskList: React.FC = () => {
         .includes(query.toLowerCase())
   );
 
+  const handleSelect = (idx: number) => {
+    dispatch(setIndex(idx));
+    navigate(`/task/${filtered[idx].id}`);
+  };
+
   return (
     <div className="p-6">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -57,7 +64,7 @@ const TaskList: React.FC = () => {
             <TaskGrid
               tasks={filtered}
               activeIndex={index}
-              onSelect={(idx) => dispatch(setIndex(idx))}
+              onSelect={handleSelect}
             />
           </div>
         </div>
