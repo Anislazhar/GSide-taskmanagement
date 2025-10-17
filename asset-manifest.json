@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/GSide-taskmanagement/static/css/main.a1a70a77.css",
+    "main.js": "/GSide-taskmanagement/static/js/main.f75451b8.js",
+    "static/media/backgroundImage.png": "/GSide-taskmanagement/static/media/backgroundImage.904dca9e3c98efa10743.png",
+    "index.html": "/GSide-taskmanagement/index.html",
+    "main.a1a70a77.css.map": "/GSide-taskmanagement/static/css/main.a1a70a77.css.map",
+    "main.f75451b8.js.map": "/GSide-taskmanagement/static/js/main.f75451b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1a70a77.css",
+    "static/js/main.f75451b8.js"
+  ]
+}
