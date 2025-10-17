@@ -7,8 +7,10 @@ import {
   restartQueue,
 } from "../../features/tasks/tasksSlice";
 import { Task } from "../../features/tasks/tasks.types";
-import ContactCard from "../ui/ContactCard";
 import SearchFilterBar from "../ui/SearchFilterBar";
+import DashboardCounters from "./DashboardCounters";
+import TaskStatsCard from "./TaskStatsCard";
+import TaskGrid from "./TaskGrid";
 
 const TaskList: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -52,32 +54,17 @@ const TaskList: React.FC = () => {
               onFilterChange={(f) => setFilter(f as any)}
               onRestart={() => dispatch(restartQueue())}
             />
-
-            <div className="flex flex-col space-y-3 overflow-y-auto max-h-[360px] scrollbar-thin scrollbar-thumb-gray-300">
-              {filtered.map((t, idx) => (
-                <ContactCard
-                  key={t.id}
-                  task={t}
-                  isActive={idx === index}
-                  onOpen={() => dispatch(setIndex(idx))}
-                />
-              ))}
-            </div>
+            <TaskGrid
+              tasks={filtered}
+              activeIndex={index}
+              onSelect={(idx) => dispatch(setIndex(idx))}
+            />
           </div>
         </div>
 
-        <aside className="space-y-4">
-          <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
-            <h4 className="text-gray-700 font-semibold mb-2">
-              Queue Statistics
-            </h4>
-            <ul className="text-sm text-gray-600 space-y-1">
-              <li>Total: {stats.total}</li>
-              <li>New: {stats.counts.New}</li>
-              <li>Done: {stats.counts.Done}</li>
-              <li>Escalated: {stats.counts.Escalated}</li>
-            </ul>
-          </div>
+        <aside className="lg:col-span-2 xl:col-span-1 flex flex-col space-y-6">
+          <DashboardCounters />
+          <TaskStatsCard stats={stats} />
         </aside>
       </div>
     </div>
