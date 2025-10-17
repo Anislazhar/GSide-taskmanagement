@@ -16,6 +16,7 @@ import BirthdateForm from "../ui/BirthdateForm";
 import TaskButtons from "../ui/TaskButtons";
 import Sidebar from "../ui/Sidebarcard";
 import StatsGrid from "../ui/StatsGrid";
+import WeatherBox from "../ui/WeatherBox";
 
 export default function TaskDetail() {
   const dispatch = useDispatch<AppDispatch>();
@@ -95,6 +96,7 @@ export default function TaskDetail() {
               goNext();
             }}
           />
+
           <StatsGrid stats={stats} />
         </div>
         <Sidebar tasks={tasks} pointsPerTask={pointsPerTask} />
