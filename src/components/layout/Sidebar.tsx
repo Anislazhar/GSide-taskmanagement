@@ -9,7 +9,7 @@ import {
   Power,
   Info,
 } from "lucide-react";
-import BackgroundImage from "../assets/backgroundImage.png";
+import BackgroundImage from "../../assets/backgroundImage.png";
 
 interface SidebarProps {
   isCollapsed: boolean;
