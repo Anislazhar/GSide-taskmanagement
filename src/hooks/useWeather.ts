@@ -13,7 +13,7 @@ export function useWeather() {
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const apiKey = "12927cf87be18d8a75c071358a74b984";
+  const apiKey = process.env.REACT_APP_OPENWEATHER_KEY;
   const cacheKey = "weather_cache_v1";
 
   useEffect(() => {
