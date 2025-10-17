@@ -1,0 +1,470 @@
+[
+  {
+    "id": "1",
+    "contractNumber": "C-1001",
+    "name": "John Doe",
+    "status": "New",
+    "ocrBirthdate": "15.01.1988",
+    "sex": "M",
+    "address": "Schönsteine Allee 24"
+  },
+  {
+    "id": "2",
+    "contractNumber": "C-1002",
+    "name": "Jane Smith",
+    "status": "New",
+    "ocrBirthdate": "03.11.1975",
+    "sex": "F",
+    "address": "Oak Ave 12"
+  },
+  {
+    "id": "3",
+    "contractNumber": "C-1003",
+    "name": "Michael Brown",
+    "status": "Done",
+    "ocrBirthdate": "22.09.1990",
+    "sex": "M",
+    "address": "Lindenstrasse 8"
+  },
+  {
+    "id": "4",
+    "contractNumber": "C-1004",
+    "name": "Emily Johnson",
+    "status": "Escalated",
+    "ocrBirthdate": "10.05.1984",
+    "sex": "F",
+    "address": "Birkenweg 45"
+  },
+  {
+    "id": "5",
+    "contractNumber": "C-1005",
+    "name": "Robert Davis",
+    "status": "New",
+    "ocrBirthdate": "18.03.1978",
+    "sex": "M",
+    "address": "Hauptstrasse 12"
+  },
+  {
+    "id": "6",
+    "contractNumber": "C-1006",
+    "name": "Sarah Wilson",
+    "status": "Done",
+    "ocrBirthdate": "27.07.1993",
+    "sex": "F",
+    "address": "Königsallee 10"
+  },
+  {
+    "id": "7",
+    "contractNumber": "C-1007",
+    "name": "David Miller",
+    "status": "New",
+    "ocrBirthdate": "04.12.1981",
+    "sex": "M",
+    "address": "Marktstrasse 5"
+  },
+  {
+    "id": "8",
+    "contractNumber": "C-1008",
+    "name": "Laura Garcia",
+    "status": "Escalated",
+    "ocrBirthdate": "30.01.1986",
+    "sex": "F",
+    "address": "Gartenweg 21"
+  },
+  {
+    "id": "9",
+    "contractNumber": "C-1009",
+    "name": "James Anderson",
+    "status": "Done",
+    "ocrBirthdate": "06.02.1979",
+    "sex": "M",
+    "address": "Weinbergstrasse 11"
+  },
+  {
+    "id": "10",
+    "contractNumber": "C-1010",
+    "name": "Olivia Martin",
+    "status": "New",
+    "ocrBirthdate": "02.08.1992",
+    "sex": "F",
+    "address": "Am Park 33"
+  },
+  {
+    "id": "11",
+    "contractNumber": "C-1011",
+    "name": "Ethan Thomas",
+    "status": "New",
+    "ocrBirthdate": "09.06.1989",
+    "sex": "M",
+    "address": "Feldweg 9"
+  },
+  {
+    "id": "12",
+    "contractNumber": "C-1012",
+    "name": "Ava Jackson",
+    "status": "Done",
+    "ocrBirthdate": "13.11.1982",
+    "sex": "F",
+    "address": "Kastanienallee 7"
+  },
+  {
+    "id": "13",
+    "contractNumber": "C-1013",
+    "name": "Benjamin White",
+    "status": "Escalated",
+    "ocrBirthdate": "01.09.1977",
+    "sex": "M",
+    "address": "Tulpenstrasse 3"
+  },
+  {
+    "id": "14",
+    "contractNumber": "C-1014",
+    "name": "Sophia Harris",
+    "status": "Done",
+    "ocrBirthdate": "12.10.1995",
+    "sex": "F",
+    "address": "Poststrasse 16"
+  },
+  {
+    "id": "15",
+    "contractNumber": "C-1015",
+    "name": "Henry Clark",
+    "status": "New",
+    "ocrBirthdate": "24.01.1983",
+    "sex": "M",
+    "address": "Am See 5"
+  },
+  {
+    "id": "16",
+    "contractNumber": "C-1016",
+    "name": "Mia Lewis",
+    "status": "Done",
+    "ocrBirthdate": "19.04.1987",
+    "sex": "F",
+    "address": "Goethestrasse 14"
+  },
+  {
+    "id": "17",
+    "contractNumber": "C-1017",
+    "name": "Daniel Walker",
+    "status": "New",
+    "ocrBirthdate": "08.12.1990",
+    "sex": "M",
+    "address": "Parkallee 22"
+  },
+  {
+    "id": "18",
+    "contractNumber": "C-1018",
+    "name": "Ella Hall",
+    "status": "Escalated",
+    "ocrBirthdate": "11.03.1976",
+    "sex": "F",
+    "address": "Am Hang 4"
+  },
+  {
+    "id": "19",
+    "contractNumber": "C-1019",
+    "name": "Matthew Allen",
+    "status": "Done",
+    "ocrBirthdate": "26.05.1985",
+    "sex": "M",
+    "address": "Beethovenstrasse 2"
+  },
+  {
+    "id": "20",
+    "contractNumber": "C-1020",
+    "name": "Grace Young",
+    "status": "New",
+    "ocrBirthdate": "14.09.1991",
+    "sex": "F",
+    "address": "Rosenweg 13"
+  },
+  {
+    "id": "21",
+    "contractNumber": "C-1021",
+    "name": "Lucas King",
+    "status": "Done",
+    "ocrBirthdate": "05.11.1980",
+    "sex": "M",
+    "address": "Im Grünen 6"
+  },
+  {
+    "id": "22",
+    "contractNumber": "C-1022",
+    "name": "Charlotte Wright",
+    "status": "Escalated",
+    "ocrBirthdate": "20.02.1989",
+    "sex": "F",
+    "address": "Ringstrasse 30"
+  },
+  {
+    "id": "23",
+    "contractNumber": "C-1023",
+    "name": "Jack Scott",
+    "status": "New",
+    "ocrBirthdate": "18.07.1994",
+    "sex": "M",
+    "address": "Waldweg 19"
+  },
+  {
+    "id": "24",
+    "contractNumber": "C-1024",
+    "name": "Amelia Green",
+    "status": "Done",
+    "ocrBirthdate": "07.10.1983",
+    "sex": "F",
+    "address": "Kirchplatz 5"
+  },
+  {
+    "id": "25",
+    "contractNumber": "C-1025",
+    "name": "Liam Adams",
+    "status": "New",
+    "ocrBirthdate": "15.08.1981",
+    "sex": "M",
+    "address": "Hauptweg 8"
+  },
+  {
+    "id": "26",
+    "contractNumber": "C-1026",
+    "name": "Isabella Baker",
+    "status": "Escalated",
+    "ocrBirthdate": "29.04.1979",
+    "sex": "F",
+    "address": "Talstrasse 9"
+  },
+  {
+    "id": "27",
+    "contractNumber": "C-1027",
+    "name": "Noah Gonzalez",
+    "status": "Done",
+    "ocrBirthdate": "10.06.1993",
+    "sex": "M",
+    "address": "Mozartstrasse 1"
+  },
+  {
+    "id": "28",
+    "contractNumber": "C-1028",
+    "name": "Harper Perez",
+    "status": "New",
+    "ocrBirthdate": "03.01.1996",
+    "sex": "F",
+    "address": "Seestrasse 27"
+  },
+  {
+    "id": "29",
+    "contractNumber": "C-1029",
+    "name": "Alexander Turner",
+    "status": "Done",
+    "ocrBirthdate": "09.02.1984",
+    "sex": "M",
+    "address": "Kaiserstrasse 18"
+  },
+  {
+    "id": "30",
+    "contractNumber": "C-1030",
+    "name": "Evelyn Parker",
+    "status": "New",
+    "ocrBirthdate": "01.05.1992",
+    "sex": "F",
+    "address": "Blumenweg 16"
+  },
+  {
+    "id": "31",
+    "contractNumber": "C-1031",
+    "name": "Sebastian Collins",
+    "status": "Escalated",
+    "ocrBirthdate": "23.09.1978",
+    "sex": "M",
+    "address": "Friedenstrasse 4"
+  },
+  {
+    "id": "32",
+    "contractNumber": "C-1032",
+    "name": "Victoria Sanchez",
+    "status": "Done",
+    "ocrBirthdate": "12.03.1987",
+    "sex": "F",
+    "address": "Heidestrasse 10"
+  },
+  {
+    "id": "33",
+    "contractNumber": "C-1033",
+    "name": "Andrew Morris",
+    "status": "New",
+    "ocrBirthdate": "25.10.1990",
+    "sex": "M",
+    "address": "Leipziger Strasse 2"
+  },
+  {
+    "id": "34",
+    "contractNumber": "C-1034",
+    "name": "Madison Rogers",
+    "status": "Escalated",
+    "ocrBirthdate": "04.07.1991",
+    "sex": "F",
+    "address": "Mühlenweg 15"
+  },
+  {
+    "id": "35",
+    "contractNumber": "C-1035",
+    "name": "Joshua Reed",
+    "status": "New",
+    "ocrBirthdate": "17.01.1982",
+    "sex": "M",
+    "address": "Sonnenstrasse 20"
+  },
+  {
+    "id": "36",
+    "contractNumber": "C-1036",
+    "name": "Lily Cook",
+    "status": "Done",
+    "ocrBirthdate": "21.06.1985",
+    "sex": "F",
+    "address": "Hofweg 12"
+  },
+  {
+    "id": "37",
+    "contractNumber": "C-1037",
+    "name": "Ryan Bell",
+    "status": "Escalated",
+    "ocrBirthdate": "05.08.1989",
+    "sex": "M",
+    "address": "Allee 11"
+  },
+  {
+    "id": "38",
+    "contractNumber": "C-1038",
+    "name": "Zoey Murphy",
+    "status": "New",
+    "ocrBirthdate": "11.12.1980",
+    "sex": "F",
+    "address": "Schillerstrasse 9"
+  },
+  {
+    "id": "39",
+    "contractNumber": "C-1039",
+    "name": "Nathan Rivera",
+    "status": "Done",
+    "ocrBirthdate": "16.09.1986",
+    "sex": "M",
+    "address": "Wiesenweg 7"
+  },
+  {
+    "id": "40",
+    "contractNumber": "C-1040",
+    "name": "Hannah Cooper",
+    "status": "New",
+    "ocrBirthdate": "09.11.1993",
+    "sex": "F",
+    "address": "Am Ufer 6"
+  },
+  {
+    "id": "41",
+    "contractNumber": "C-1041",
+    "name": "Elijah Bailey",
+    "status": "Escalated",
+    "ocrBirthdate": "28.02.1977",
+    "sex": "M",
+    "address": "Friedrichstrasse 13"
+  },
+  {
+    "id": "42",
+    "contractNumber": "C-1042",
+    "name": "Aria Cox",
+    "status": "Done",
+    "ocrBirthdate": "07.04.1992",
+    "sex": "F",
+    "address": "Kanalstrasse 8"
+  },
+  {
+    "id": "43",
+    "contractNumber": "C-1043",
+    "name": "Logan Ward",
+    "status": "New",
+    "ocrBirthdate": "13.01.1988",
+    "sex": "M",
+    "address": "Eichenweg 2"
+  },
+  {
+    "id": "44",
+    "contractNumber": "C-1044",
+    "name": "Chloe Ross",
+    "status": "Escalated",
+    "ocrBirthdate": "06.10.1985",
+    "sex": "F",
+    "address": "Schlossstrasse 25"
+  },
+  {
+    "id": "45",
+    "contractNumber": "C-1045",
+    "name": "William Morgan",
+    "status": "New",
+    "ocrBirthdate": "18.07.1991",
+    "sex": "M",
+    "address": "Kiefernweg 3"
+  },
+  {
+    "id": "46",
+    "contractNumber": "C-1046",
+    "name": "Sofia Peterson",
+    "status": "Done",
+    "ocrBirthdate": "20.05.1994",
+    "sex": "F",
+    "address": "Zentralstrasse 6"
+  },
+  {
+    "id": "47",
+    "contractNumber": "C-1047",
+    "name": "Jacob Hughes",
+    "status": "Escalated",
+    "ocrBirthdate": "01.09.1982",
+    "sex": "M",
+    "address": "Ringallee 1"
+  },
+  {
+    "id": "48",
+    "contractNumber": "C-1048",
+    "name": "Ella Foster",
+    "status": "New",
+    "ocrBirthdate": "27.02.1989",
+    "sex": "F",
+    "address": "Hafenstrasse 5"
+  },
+  {
+    "id": "49",
+    "contractNumber": "C-1049",
+    "name": "Jackson Long",
+    "status": "Done",
+    "ocrBirthdate": "19.11.1980",
+    "sex": "M",
+    "address": "Steinstrasse 12"
+  },
+  {
+    "id": "50",
+    "contractNumber": "C-1050",
+    "name": "Scarlett Hill",
+    "status": "Escalated",
+    "ocrBirthdate": "15.08.1992",
+    "sex": "F",
+    "address": "Waldstrasse 4"
+  },
+  {
+    "id": "51",
+    "contractNumber": "C-1051",
+    "name": "Gabriel Barnes",
+    "status": "New",
+    "ocrBirthdate": "03.04.1987",
+    "sex": "M",
+    "address": "Am Hof 9"
+  },
+  {
+    "id": "52",
+    "contractNumber": "C-1052",
+    "name": "Grace Mitchell",
+    "status": "Done",
+    "ocrBirthdate": "22.07.1985",
+    "sex": "F",
+    "address": "Heinrichstrasse 11"
+  }
+]
