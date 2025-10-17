@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState, AppDispatch } from "../../app/store";
 import {
@@ -6,10 +6,9 @@ import {
   setIndex,
   restartQueue,
 } from "../../features/tasks/tasksSlice";
-
 import { Task } from "../../features/tasks/tasks.types";
-import SearchFilterBar from "../ui/SearchFilterBar";
 import ContactCard from "../ui/ContactCard";
+import SearchFilterBar from "../ui/SearchFilterBar";
 
 const TaskList: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -25,6 +24,13 @@ const TaskList: React.FC = () => {
       .then((data: Task[]) => dispatch(setTasks(data)))
       .catch(() => dispatch(setTasks([])));
   }, [dispatch]);
+
+  const stats = useMemo(() => {
+    const total = tasks.length;
+    const counts = { New: 0, Done: 0, Escalated: 0 };
+    tasks.forEach((t) => counts[t.status]++);
+    return { total, counts };
+  }, [tasks]);
 
   const filtered = tasks.filter(
     (t) =>
@@ -59,6 +65,20 @@ const TaskList: React.FC = () => {
             </div>
           </div>
         </div>
+
+        <aside className="space-y-4">
+          <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-100">
+            <h4 className="text-gray-700 font-semibold mb-2">
+              Queue Statistics
+            </h4>
+            <ul className="text-sm text-gray-600 space-y-1">
+              <li>Total: {stats.total}</li>
+              <li>New: {stats.counts.New}</li>
+              <li>Done: {stats.counts.Done}</li>
+              <li>Escalated: {stats.counts.Escalated}</li>
+            </ul>
+          </div>
+        </aside>
       </div>
     </div>
   );
