@@ -19,7 +19,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, toggleSidebar }) => {
   return (
     <div
-      className={`relative h-screen text-white flex flex-col transition-all duration-300 ${
+      className={`fixed h-screen text-white flex flex-col transition-all duration-300 ${
         isCollapsed ? "w-14" : "w-60"
       }`}
     >

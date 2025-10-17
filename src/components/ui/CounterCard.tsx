@@ -42,9 +42,7 @@ const CounterCard: React.FC<CounterCardProps> = ({
       </div>
 
       <div className="text-center space-y-1">
-        <p className="text-xs text-gray-500">
-          Target: <span className="font-semibold">{target}</span> {unit}
-        </p>
+        <p className="text-xs text-gray-500"></p>
         <p className="text-xs text-gray-500">
           <span className="font-semibold text-rose-500">{remaining}</span>{" "}
           {unit} to reach the daily goal

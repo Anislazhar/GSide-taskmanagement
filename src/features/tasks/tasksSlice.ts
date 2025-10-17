@@ -4,6 +4,7 @@ import { Task } from "./tasks.types";
 interface TasksState {
   tasks: Task[];
   index: number;
+  points?: number;
 }
 
 const initialState: TasksState = { tasks: [], index: 0 };
@@ -53,6 +54,9 @@ const tasksSlice = createSlice({
     setIndex(state, action: PayloadAction<number>) {
       state.index = action.payload;
     },
+    incrementPoints: (state, action: PayloadAction<number>) => {
+      state.points = (state.points || 0) + action.payload;
+    },
   },
 });
 
@@ -64,6 +68,7 @@ export const {
   updateBirthdate,
   restartQueue,
   setIndex,
+  incrementPoints,
 } = tasksSlice.actions;
 
 export default tasksSlice.reducer;
